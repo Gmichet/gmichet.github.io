@@ -1,0 +1,80 @@
+/* Paleta de colores oscuros*/
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+a {
+    color: #58a6ff;
+}
+
+.navbar, .footer {
+    background-color: #0d1117;
+    border-color: #30363d;
+}
+
+/* Otros estilos */
+
+/* Cambiar el color de fondo de la barra superior a negro puro */
+nav .nav-wrapper {
+    background-color: #000000 !important;
+}
+
+/* Cambiar el color de fondo de la barra inferior (footer) a negro puro */
+footer, .page-footer {
+    background-color: #000000 !important;
+}
+
+/* Color de las columnas de los post*/
+.card-content  {
+  background-color: #001f3f !important; /* Azul marino */
+  color: #ffffff; /* Color del texto en blanco para contraste */
+}
+
+/* Color de Read More debajo de la columnas */
+.card-action {
+  background-color: #001f3f !important; /* Azul marino */
+  color: #ffffff !important; /* Texto en blanco para contraste */
+}
+
+/* Barra lateral */
+.side-nav {
+  background-color: #1E1E2F; /* Cambia esto según la combinación elegida */
+}
+
+.side-nav .material-icons,
+.side-nav li {
+  color: #FFFFFF; /* Blanco para el texto e iconos */
+
+}
+
+/* Cambiar el fondo de otros elementos como el About, Contact, etc. */
+.card {
+  background-color: #2C3E50; /* Cambia esto según la combinación elegida */
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  height: 1100px; /* Ajusta según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centra los elementos dentro del contenedor */
+}
+
+/* Cambiar el color de fondo del collapsible header */
+.collapsible-header {
+    background-color: #1f1f1f; /* Un color gris oscuro que combine bien */
+    color: #000000; /* Cambia el color del texto a blanco */
+}
+
+/* Cambiar el color al pasar el mouse (hover) */
+.collapsible-header:hover {
+    background-color: #3a3a3a; /* Un gris más claro para el efecto hover */
+}
+
+/* Cambiar el color de los iconos dentro del collapsible */
+.collapsible-header .material-icons {
+    color: #000000; /* Color blanco para los iconos */
+}
