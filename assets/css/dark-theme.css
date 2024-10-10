@@ -18,49 +18,29 @@ a {
 /* Cambiar el color de fondo de la barra superior a negro puro */
 nav .nav-wrapper {
     background-color: #000000 !important;
-}
 
-/* Cambiar el color de fondo de la barra inferior (footer) a negro puro */
-footer, .page-footer {
-    background-color: #000000 !important;
 }
 
 /* Color de las columnas de los post*/
 .card-content  {
-  background-color: #001f3f !important; /* Azul marino */
+  background-color: #161b22 !important; /* Azul marino */
   color: #ffffff; /* Color del texto en blanco para contraste */
 }
 
 /* Color de Read More debajo de la columnas */
 .card-action {
-  background-color: #001f3f !important; /* Azul marino */
+  background-color: #0d1117 !important; /* Azul marino */
   color: #ffffff !important; /* Texto en blanco para contraste */
-}
-
-/* Barra lateral */
-.side-nav {
-  background-color: #1E1E2F; /* Cambia esto según la combinación elegida */
-}
-
-.side-nav .material-icons,
-.side-nav li {
-  color: #FFFFFF; /* Blanco para el texto e iconos */
 
 }
 
-/* Cambiar el fondo de otros elementos como el About, Contact, etc. */
-.card {
-  background-color: #2C3E50; /* Cambia esto según la combinación elegida */
-}
-
-.background {
-  background-size: cover;
-  background-position: center;
-  height: 1100px; /* Ajusta según tus necesidades */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; /* Centra los elementos dentro del contenedor */
+.language-plaintext.highlighter-rouge {
+  background-color: #1e1e1e; /* Color oscuro de fondo */
+  color: #f1c40f; /* Color de las comillas invertidas */
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
 }
 
 /* Cambiar el color de fondo del collapsible header */
@@ -77,4 +57,22 @@ footer, .page-footer {
 /* Cambiar el color de los iconos dentro del collapsible */
 .collapsible-header .material-icons {
     color: #000000; /* Color blanco para los iconos */
+
 }
+
+div.userView {
+  background-image: url('/assets/res/bg.png'); /* Cambia la ruta según tu estructura */
+  background-size: cover;
+  background-position: center;
+  height: 160px; /* Ajusta según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Centra los elementos dentro del contenedor */
+}
+
+strong {
+  color: #5CCCCC; /* Un tono de cian suave que añade color sin ser muy brillante */
+}
+
+
