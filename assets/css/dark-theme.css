@@ -75,4 +75,33 @@ strong {
   color: #5CCCCC; /* Un tono de cian suave que añade color sin ser muy brillante */
 }
 
+/* Modifica la barra horizontal de la parte inferior*/
+.page-footer.teal {
+  background-color: #000000 !important; /* Cambia el color a negro puro */
+  color: #67C39E; /* Cambia el color del texto a un verde claro que resalte */
+}
+
+/* Modifica el color de la barra vertical del costado izquierdo */
+#slide-out, .side-nav {
+    background-color: #000000 !important; /* Ajusta el color al que desees */
+}
+
+.side-nav.fixed {
+    background-color: #000000 !important;
+}
+
+.side-nav a {
+    color: #FFFFFF !important; /* Cambia el color de los enlaces dentro de la barra */
+}
+
+.side-nav .material-icons {
+    color: #FFFFFF !important; /* Cambia el color de los íconos */
+}
+
+/* Imagenes optimizacion en dispositivos moviles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
